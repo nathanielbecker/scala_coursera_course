@@ -1,5 +1,0 @@
-package week_1
-
-object session5 {
-  println("Welcome to the Scala worksheet")
-}

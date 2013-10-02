@@ -1,5 +1,0 @@
-package week_1
-
-object rationals {
-  println("Welcome to the Scala worksheet")
-}
