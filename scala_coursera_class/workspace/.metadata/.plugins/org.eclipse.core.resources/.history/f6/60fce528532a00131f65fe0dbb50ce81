@@ -1,0 +1,28 @@
+package week_1
+
+object rationals {
+val x = new rational(1,2)                         //> x  : week_1.rational = 1/2
+x.denom                                           //> res0: Int = 2
+x.numer                                           //> res1: Int = 1
+x.neg                                             //> res2: Int = -1
+
+val y = new rational(2,3)                         //> y  : week_1.rational = 2/3
+x.sub(y)                                          //> res3: week_1.rational = -1/6
+ }
+
+class rational (x: Int, y: Int) {
+def numer = x
+def denom = y
+
+
+def add(that: rational) =
+new rational(numer*that.denom + that.numer *denom, denom*that.denom)
+
+def sub(that: rational) =
+new rational(numer*that.denom - that.numer *denom, denom*that.denom)
+
+
+override def toString = numer + "/" + denom
+
+def neg = -x
+}

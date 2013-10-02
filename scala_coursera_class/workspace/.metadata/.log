@@ -1,0 +1,58 @@
+!SESSION 2013-09-19 23:48:42.596 -----------------------------------------------
+eclipse.buildId=3.0.1-vfinal-20130718-1727-Typesafe
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/nbecker/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/nbecker/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-09-19 23:49:37.979
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2013-09-19 23:57:20.216 -----------------------------------------------
+eclipse.buildId=3.0.1-vfinal-20130718-1727-Typesafe
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/nbecker/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/nbecker/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-09-19 23:57:37.655
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2013-09-19 23:57:50.443
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2013-09-20 00:00:08.943
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-09-24 22:58:08.546 -----------------------------------------------
+eclipse.buildId=3.0.1-vfinal-20130718-1727-Typesafe
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/nbecker/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/nbecker/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-09-24 22:58:29.614
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2013-09-24 22:58:44.175
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2013-09-24 22:59:58.162
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.scala-ide.sdt.core 1 0 2013-09-25 16:47:37.500
+!MESSAGE Timeout while resolving hyperlink in /Users/nbecker/Desktop/scala_coursera_class/workspace/proc_fun/src/week_1/session.sc at: offset: 142, length: 0
+!SESSION 2013-09-28 00:15:56.515 -----------------------------------------------
+eclipse.buildId=3.0.1-vfinal-20130718-1727-Typesafe
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/nbecker/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/nbecker/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-09-28 00:16:18.024
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 00:16:44.157
+!MESSAGE Invalid preference page path: XML Syntax

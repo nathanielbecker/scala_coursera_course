@@ -1,0 +1,48 @@
+package week_1
+
+object session {
+
+
+def balance(chars: List[Char]): Boolean = {
+
+	def scorecard (somehead: Char): Integer = somehead match {
+		case '(' => 1
+		case ')' => -1
+		case _ => 0
+	}
+	
+def balancio (chars: List[Char], scoring: Int) :  Boolean = {
+
+
+	if (scoring < 0) false
+	else if (chars.isEmpty && scoring ==0) true
+	else if (chars.isEmpty) false
+	else balancio(chars.tail, scoring + scorecard(chars.head))
+	
+}
+balancio(chars,0)
+
+}                                                 //> balance: (chars: List[Char])Boolean
+balance("(just an) example".toList)               //> res0: Boolean = true
+
+
+
+def calulateChangeCombinations(money: Int, coins: List[Int]): Int = {
+
+  if(money == 0) 1
+  else if (money < 0 || coins.isEmpty) 0
+  else {
+    calulateChangeCombinations(money - coins.head, coins) +
+    calulateChangeCombinations(money, coins.tail)
+  }
+}                                                 //> calulateChangeCombinations: (money: Int, coins: List[Int])Int
+
+def getListOfChangeCombinations (moneySum: Int, coins: List[Int]) {
+  //just handle zero money case
+  if (moneySum == 0) 0
+  else calulateChangeCombinations(moneySum, coins)
+}                                                 //> getListOfChangeCombinations: (moneySum: Int, coins: List[Int])Unit
+
+getListOfChangeCombinations(8,List(1,3,4))
+
+}

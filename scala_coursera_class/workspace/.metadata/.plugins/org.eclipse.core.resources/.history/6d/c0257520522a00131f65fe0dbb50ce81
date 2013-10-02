@@ -1,0 +1,19 @@
+package week_1
+
+object rationals {
+val x = new rational(1,2)                         //> x  : week_1.rational = week_1.rational@4ce32802
+x.denom                                           //> res0: Int = 2
+val y= new rational(2,3)                          //> y  : week_1.rational = week_1.rational@3782da3d
+x.add(y)                                          //> res1: week_1.rational = week_1.rational@6fc5f743
+ }
+
+class rational (x: Int, y: Int) {
+def numer = x
+def denom = y
+
+
+def add(that: rational) =
+new rational(numer*that.denom + that.numer *denom, denom*that.denom)
+
+def tostringo = numer + "/" + denom
+}
